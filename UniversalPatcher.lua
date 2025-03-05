@@ -1,4 +1,4 @@
-﻿
+$continue = $true﻿
 function OnExecute{
 
     local function convert(textbox)
